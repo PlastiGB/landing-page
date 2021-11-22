@@ -1,0 +1,219 @@
+body
+{
+    font-family: "Roboto Mono", sans-serif;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0;
+}
+
+.header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    
+    background-color: #1F2937;
+
+}
+
+#logo
+{
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.hero
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+    background-color: #1F2937;
+    padding: 120px;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    width: 460px;
+}
+
+#title
+{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.herotext
+{
+    color: #E5E7EB;
+    margin-top: 0px;    
+}
+
+#heroimg
+{
+    border-radius: 15px;
+    width: 500px;
+    height: 250px;
+}
+
+.section
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    padding-bottom: 150px;
+}
+
+#info
+{
+    text-align: center;
+
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 60px;
+}
+
+.items
+{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 200px;
+    text-align: center;
+}
+
+.image
+{
+    border: 5px #3882F6 solid;
+    border-radius: 15px;
+    width: 175px;
+    height: 175px;
+    margin-bottom: 10px;
+}
+
+.text
+{
+    font-size: 16px;
+    color: grey;
+}
+
+.quotesection
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #E5E7EB;
+    padding: 100px 400px;
+}
+
+.quotecontainer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#quote
+{
+    font-size: 36px;
+    font-style: italic;
+    text-align: left;
+    padding-bottom: 10px;
+    
+}
+
+#writer
+{
+    font-size: 20px;
+}
+
+.action
+{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.actioncont
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 90px 0;
+    padding: 40px 120px;
+}
+
+#callhead
+{
+   color: white; 
+   font-weight: bolder;
+   font-size: 20px;
+   padding-top: 10px;
+}
+
+.footer
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 30px;
+}
+
+
+ul
+{
+    display: flex;
+    gap: 20px;
+
+    list-style-type: none;
+    color: #E5E7EB;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+button
+{
+    background-color: #3882F6;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 8px 30px;
+    font-weight: bold;
+}
+
+.actioncont button
+{
+    border: 1px white solid;
+}
